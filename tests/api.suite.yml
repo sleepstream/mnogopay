@@ -1,0 +1,12 @@
+actor: ApiTester
+modules:
+    enabled:
+        - REST
+        - \Helper\Api
+    config:
+        REST:
+            url: 'https://mock01.ecpdss.net/mnogopay/z/buy'
+            depends: PhpBrowser
+            part: Json
+params:
+    secret: "QWERTY000097531KEY"
