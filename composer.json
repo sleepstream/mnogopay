@@ -6,6 +6,8 @@
     },
     "require": {
         "codeception/codeception": "^4.1",
-        "codeception/module-asserts": "^1.0.0"
+        "codeception/module-asserts": "^1.0.0",
+        "allure-framework/allure-codeception": "^1.4",
+        "symfony/http-foundation": "^v2.5.12"
     }
 }

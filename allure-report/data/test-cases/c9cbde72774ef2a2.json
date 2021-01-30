@@ -1,0 +1,189 @@
+{
+  "uid" : "c9cbde72774ef2a2",
+  "name" : "Test link title",
+  "fullName" : "UsersTestCest.ByPositiveTest",
+  "historyId" : "f341b9c0b6503b9e0677703e26449c63",
+  "time" : {
+    "start" : 1611995230934,
+    "stop" : 1611995231186,
+    "duration" : 252
+  },
+  "description" : "Test link test desc",
+  "descriptionHtml" : "<p>Test link test desc</p>\n",
+  "status" : "failed",
+  "statusMessage" : "Operation status should be  0 for success.\nFailed asserting that '222' matches expected 0.",
+  "statusTrace" : "#0 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(2344): PHPUnit\\Framework\\Constraint\\IsEqual->evaluate('222', 'Operation statu...')\n#1 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(324): PHPUnit\\Framework\\Assert::assertThat('222', Object(PHPUnit\\Framework\\Constraint\\IsEqual), 'Operation statu...')\n#2 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(243): PHPUnit\\Framework\\Assert::assertEquals(0, '222', 'Operation statu...')\n#3 /Users/garistov/PhpstormProjects/untitled1/tests/_support/Helper/Api.php(17): Codeception\\Module->assertEquals(0, '222', 'Operation statu...')\n#4 [internal function]: Helper\\Api->checkOperationStatusSuccess(0)\n#5 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)\n#6 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#7 /Users/garistov/PhpstormProjects/untitled1/tests/_support/_generated/ApiTesterActions.php(1660): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Action))\n#8 /Users/garistov/PhpstormProjects/untitled1/tests/api/UsersTestCest.php(76): ApiTester->checkOperationStatusSuccess(0)\n#9 [internal function]: UsersTestCest->ByPositiveTest(Object(ApiTester), Object(Codeception\\Example))\n#10 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Lib/Di.php(128): ReflectionMethod->invokeArgs(Object(UsersTestCest), Array)\n#11 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(UsersTestCest), 'ByPositiveTest', Array)\n#12 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(147): Codeception\\Test\\Cest->invoke('ByPositiveTest', Array)\n#13 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(ApiTester))\n#14 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\\Test\\Cest->test()\n#15 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/TestSuite.php(677): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#16 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#17 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#18 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(208): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#19 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(162): Codeception\\Codecept->runSuite(Array, 'api', NULL)\n#20 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(531): Codeception\\Codecept->run('api')\n#21 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(407): Codeception\\Command\\Run->runSuites(Array, Array)\n#22 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Command/Command.php(256): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#23 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(971): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#24 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Application.php(117): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(46): Codeception\\Application->run()\n#28 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(47): {closure}()\n#29 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/codecept(7): require('/Users/garistov...')\n#30 {main}",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Operation status should be  0 for success.\nFailed asserting that '222' matches expected 0.",
+    "statusTrace" : "#0 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(2344): PHPUnit\\Framework\\Constraint\\IsEqual->evaluate('222', 'Operation statu...')\n#1 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(324): PHPUnit\\Framework\\Assert::assertThat('222', Object(PHPUnit\\Framework\\Constraint\\IsEqual), 'Operation statu...')\n#2 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(243): PHPUnit\\Framework\\Assert::assertEquals(0, '222', 'Operation statu...')\n#3 /Users/garistov/PhpstormProjects/untitled1/tests/_support/Helper/Api.php(17): Codeception\\Module->assertEquals(0, '222', 'Operation statu...')\n#4 [internal function]: Helper\\Api->checkOperationStatusSuccess(0)\n#5 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)\n#6 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#7 /Users/garistov/PhpstormProjects/untitled1/tests/_support/_generated/ApiTesterActions.php(1660): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Action))\n#8 /Users/garistov/PhpstormProjects/untitled1/tests/api/UsersTestCest.php(76): ApiTester->checkOperationStatusSuccess(0)\n#9 [internal function]: UsersTestCest->ByPositiveTest(Object(ApiTester), Object(Codeception\\Example))\n#10 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Lib/Di.php(128): ReflectionMethod->invokeArgs(Object(UsersTestCest), Array)\n#11 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(UsersTestCest), 'ByPositiveTest', Array)\n#12 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(147): Codeception\\Test\\Cest->invoke('ByPositiveTest', Array)\n#13 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(ApiTester))\n#14 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\\Test\\Cest->test()\n#15 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/TestSuite.php(677): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#16 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#17 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#18 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(208): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#19 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(162): Codeception\\Codecept->runSuite(Array, 'api', NULL)\n#20 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(531): Codeception\\Codecept->run('api')\n#21 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(407): Codeception\\Command\\Run->runSuites(Array, Array)\n#22 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Command/Command.php(256): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#23 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(971): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#24 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Application.php(117): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(46): Codeception\\Application->run()\n#28 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(47): {closure}()\n#29 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/codecept(7): require('/Users/garistov...')\n#30 {main}",
+    "steps" : [ {
+      "name" : "have http header \"secret\",\"QWERTY000097531KEY\"",
+      "time" : {
+        "start" : 1611995230939,
+        "stop" : 1611995230939,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "have http header \"Content-Type\",\"application/json\"",
+      "time" : {
+        "start" : 1611995230940,
+        "stop" : 1611995230940,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "send post \"/\",{\"amount\":1111,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"e...}",
+      "time" : {
+        "start" : 1611995230940,
+        "stop" : 1611995231167,
+        "duration" : 227
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response code is 200",
+      "time" : {
+        "start" : 1611995231167,
+        "stop" : 1611995231167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response is json ",
+      "time" : {
+        "start" : 1611995231167,
+        "stop" : 1611995231167,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check operation status success 0",
+      "time" : {
+        "start" : 1611995231168,
+        "stop" : 1611995231175,
+        "duration" : 7
+      },
+      "status" : "failed",
+      "statusMessage" : "#0 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(2344): PHPUnit\\Framework\\Constraint\\IsEqual->evaluate('222', 'Operation statu...')\n#1 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/Assert.php(324): PHPUnit\\Framework\\Assert::assertThat('222', Object(PHPUnit\\Framework\\Constraint\\IsEqual), 'Operation statu...')\n#2 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/lib-asserts/src/Codeception/Util/Shared/InheritedAsserts.php(243): PHPUnit\\Framework\\Assert::assertEquals(0, '222', 'Operation statu...')\n#3 /Users/garistov/PhpstormProjects/untitled1/tests/_support/Helper/Api.php(17): Codeception\\Module->assertEquals(0, '222', 'Operation statu...')\n#4 [internal function]: Helper\\Api->checkOperationStatusSuccess(0)\n#5 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Step.php(268): call_user_func_array(Array, Array)\n#6 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Scenario.php(76): Codeception\\Step->run(Object(Codeception\\Lib\\ModuleContainer))\n#7 /Users/garistov/PhpstormProjects/untitled1/tests/_support/_generated/ApiTesterActions.php(1660): Codeception\\Scenario->runStep(Object(Codeception\\Step\\Action))\n#8 /Users/garistov/PhpstormProjects/untitled1/tests/api/UsersTestCest.php(76): ApiTester->checkOperationStatusSuccess(0)\n#9 [internal function]: UsersTestCest->ByPositiveTest(Object(ApiTester), Object(Codeception\\Example))\n#10 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Lib/Di.php(128): ReflectionMethod->invokeArgs(Object(UsersTestCest), Array)\n#11 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(138): Codeception\\Lib\\Di->injectDependencies(Object(UsersTestCest), 'ByPositiveTest', Array)\n#12 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(147): Codeception\\Test\\Cest->invoke('ByPositiveTest', Array)\n#13 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Cest.php(82): Codeception\\Test\\Cest->executeTestMethod(Object(ApiTester))\n#14 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Test/Test.php(98): Codeception\\Test\\Cest->test()\n#15 /Users/garistov/PhpstormProjects/untitled1/vendor/phpunit/phpunit/src/Framework/TestSuite.php(677): Codeception\\Test\\Test->run(Object(PHPUnit\\Framework\\TestResult))\n#16 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/phpunit-wrapper/src/Runner.php(117): PHPUnit\\Framework\\TestSuite->run(Object(PHPUnit\\Framework\\TestResult))\n#17 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/SuiteManager.php(161): Codeception\\PHPUnit\\Runner->doEnhancedRun(Object(Codeception\\Suite), Object(PHPUnit\\Framework\\TestResult), Array)\n#18 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(208): Codeception\\SuiteManager->run(Object(Codeception\\PHPUnit\\Runner), Object(PHPUnit\\Framework\\TestResult), Array)\n#19 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Codecept.php(162): Codeception\\Codecept->runSuite(Array, 'api', NULL)\n#20 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(531): Codeception\\Codecept->run('api')\n#21 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Command/Run.php(407): Codeception\\Command\\Run->runSuites(Array, Array)\n#22 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Command/Command.php(256): Codeception\\Command\\Run->execute(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#23 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(971): Symfony\\Component\\Console\\Command\\Command->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#24 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(290): Symfony\\Component\\Console\\Application->doRunCommand(Object(Codeception\\Command\\Run), Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#25 /Users/garistov/PhpstormProjects/untitled1/vendor/symfony/console/Application.php(166): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#26 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/src/Codeception/Application.php(117): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))\n#27 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(46): Codeception\\Application->run()\n#28 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/app.php(47): {closure}()\n#29 /Users/garistov/PhpstormProjects/untitled1/vendor/codeception/codeception/codecept(7): require('/Users/garistov...')\n#30 {main}",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7a5b6682aa41d541",
+      "name" : "response",
+      "source" : "7a5b6682aa41d541.txt",
+      "type" : "text/plain",
+      "size" : 70
+    }, {
+      "uid" : "7a5b6682aa41d541",
+      "name" : "response",
+      "source" : "7a5b6682aa41d541.txt",
+      "type" : "text/plain",
+      "size" : 70
+    }, {
+      "uid" : "7a5b6682aa41d541",
+      "name" : "response",
+      "source" : "7a5b6682aa41d541.txt",
+      "type" : "text/plain",
+      "size" : 70
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 6,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "AS_ID",
+    "value" : "123"
+  }, {
+    "name" : "feature",
+    "value" : "First Feature"
+  }, {
+    "name" : "story",
+    "value" : "First Story"
+  }, {
+    "name" : "testClass",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "testId",
+    "value" : "23"
+  }, {
+    "name" : "testMethod",
+    "value" : "ByPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "api"
+  }, {
+    "name" : "package",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{\"amount\":1111,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}"
+  }, {
+    "name" : "resp_code",
+    "value" : "0"
+  } ],
+  "links" : [ {
+    "name" : "23",
+    "url" : "23",
+    "type" : "tms"
+  } ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c9cbde72774ef2a2.json",
+  "parameterValues" : [ "{\"amount\":1111,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "0" ]
+}

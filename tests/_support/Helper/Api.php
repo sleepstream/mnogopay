@@ -19,4 +19,32 @@ class Api extends \Codeception\Module
         catch (ModuleException $e) {
         }
     }
+
+    public function checkNotificationData($email, $phone)
+    {
+        try {
+            $response = $this->getModule('REST')->response;
+            $array = json_decode($response, true);
+            $this->assertContains($email ,$array['notification'],"Notification field should contains  $email for success.");
+            $this->assertContains($phone ,$array['notification'],"Notification field should contains  $phone for success.");
+
+        }
+        catch (ModuleException $e) {
+        }
+    }
+
+    public function checkMessageContainsRequiredFieldName($absent_fields)
+    {
+        try {
+            $response = $this->getModule('REST')->response;
+            $array = json_decode($response, true);
+            foreach ($absent_fields as $field) {
+                $this->assertContains($field ,$array['message'],"Notification field should contains  $field for success.");
+            }
+        }
+        catch (ModuleException $e) {
+        }
+    }
+
+
 }

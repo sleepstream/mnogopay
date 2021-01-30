@@ -1,0 +1,113 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "api",
+    "children" : [ {
+      "name" : "Test link title",
+      "uid" : "10d44ae4d3d61b63",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995385576,
+        "stop" : 1611995386150,
+        "duration" : 574
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "0" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "c01e8eb98df4ea1b",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995386150,
+        "stop" : 1611995386389,
+        "duration" : 239
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{\"amount\":\"333\",\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":\"1\",\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "8e320d021cf43d15",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995386389,
+        "stop" : 1611995386625,
+        "duration" : 236
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "f105ec83bbda90cd",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995386626,
+        "stop" : 1611995386872,
+        "duration" : 246
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{\"amount\":3.333333333333333e+20,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "333" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "8a29dec1c5870d5a",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995386873,
+        "stop" : 1611995387140,
+        "duration" : 267
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "{\"amount\":1111,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "0" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "56d5d6c32c4e761a",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995387141,
+        "stop" : 1611995387397,
+        "duration" : 256
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[\"address\",\"phone\"]", "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "69236ac23a1c4ad4",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611995387398,
+        "stop" : 1611995417415,
+        "duration" : 30017
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[\"address\",\"phone\",\"type_order\"]", "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
+    }, {
+      "name" : "Test link title",
+      "uid" : "e5065e27673150d4",
+      "parentUid" : "6f6cd2bac0d47f41cda836c6cb8b572f",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611995417415,
+        "stop" : 1611995417692,
+        "duration" : 277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "[\"address\",\"phone\",\"type_order\",\"amount\",\"currency\",\"order_id\",\"day\",\"buyer_first_name\"]", "[]", "222" ]
+    } ],
+    "uid" : "6f6cd2bac0d47f41cda836c6cb8b572f"
+  } ]
+}

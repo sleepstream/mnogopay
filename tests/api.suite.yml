@@ -8,5 +8,16 @@ modules:
             url: 'https://mock01.ecpdss.net/mnogopay/z/buy'
             depends: PhpBrowser
             part: Json
+extensions:
+    enabled:
+        - Yandex\Allure\Codeception\AllureCodeception
+    config:
+        Yandex\Allure\Codeception\AllureCodeception:
+            deletePreviousResults: false
+            outputDirectory: allure-results
+            ignoredAnnotations:
+                - env
+                - dataprovider
 params:
     secret: "QWERTY000097531KEY"
+    inputDataFile: 'app/dataProvider/inputData.json'

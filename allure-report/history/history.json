@@ -1,0 +1,162 @@
+{
+  "77be50cabbc16d363401ac753214c218" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f105ec83bbda90cd",
+      "status" : "failed",
+      "statusDetails" : "`resp_code: '333'` is of type `integer`",
+      "time" : {
+        "start" : 1611995386626,
+        "stop" : 1611995386872,
+        "duration" : 246
+      }
+    } ]
+  },
+  "a035153d7080cecf7f579a061e590e08" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c01e8eb98df4ea1b",
+      "status" : "failed",
+      "statusDetails" : "`resp_code: '111'` is of type `integer`",
+      "time" : {
+        "start" : 1611995386150,
+        "stop" : 1611995386389,
+        "duration" : 239
+      }
+    } ]
+  },
+  "f341b9c0b6503b9e0677703e26449c63" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a29dec1c5870d5a",
+      "status" : "failed",
+      "statusDetails" : "Operation status should be  0 for success.\nFailed asserting that '222' matches expected 0.",
+      "time" : {
+        "start" : 1611995386873,
+        "stop" : 1611995387140,
+        "duration" : 267
+      }
+    } ]
+  },
+  "44eb30f44115b4760c7cedd1ee639c85" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56d5d6c32c4e761a",
+      "status" : "failed",
+      "statusDetails" : "Example absent_field doesn't exist",
+      "time" : {
+        "start" : 1611995387141,
+        "stop" : 1611995387397,
+        "duration" : 256
+      }
+    } ]
+  },
+  "9fa984c92faa6cb276d642cba6ef3583" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e320d021cf43d15",
+      "status" : "failed",
+      "statusDetails" : "`resp_code: '222'` is of type `integer`",
+      "time" : {
+        "start" : 1611995386389,
+        "stop" : 1611995386625,
+        "duration" : 236
+      }
+    } ]
+  },
+  "e852ca1cc3eebb4858bd68a0cc5133c3" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e5065e27673150d4",
+      "status" : "failed",
+      "statusDetails" : "Example absent_field doesn't exist",
+      "time" : {
+        "start" : 1611995417415,
+        "stop" : 1611995417692,
+        "duration" : 277
+      }
+    } ]
+  },
+  "1bdc6b6ca256d5987a29ab741ce45310" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "10d44ae4d3d61b63",
+      "status" : "failed",
+      "statusDetails" : "`order_id: 'testorder222'` is of type `integer`",
+      "time" : {
+        "start" : 1611995385576,
+        "stop" : 1611995386150,
+        "duration" : 574
+      }
+    } ]
+  },
+  "58f8564d868296ae99d84d53b71d10b1" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "69236ac23a1c4ad4",
+      "status" : "broken",
+      "statusDetails" : "cURL error 28: Operation timed out after 30003 milliseconds with 0 out of 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://mock01.ecpdss.net/mnogopay/z/buy/",
+      "time" : {
+        "start" : 1611995387398,
+        "stop" : 1611995417415,
+        "duration" : 30017
+      }
+    } ]
+  }
+}
