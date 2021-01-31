@@ -281,9 +281,9 @@ class ComposerStaticInit03866811570f0062ec051232f6f285c7
         array (
             'Yandex' => 
             array (
-                0 => __DIR__ . '/..' . '/allure-framework/allure-codeception/src',
-                1 => __DIR__ . '/..' . '/allure-framework/allure-php-api/src',
-                2 => __DIR__ . '/..' . '/allure-framework/allure-php-api/test',
+                0 => __DIR__ . '/..' . '/allure-framework/allure-php-api/src',
+                1 => __DIR__ . '/..' . '/allure-framework/allure-php-api/test',
+                2 => __DIR__ . '/..' . '/allure-framework/allure-codeception/src',
             ),
         ),
         'P' => 

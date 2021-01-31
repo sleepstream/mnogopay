@@ -20,13 +20,16 @@ class Api extends \Codeception\Module
         }
     }
 
-    public function checkNotificationData($email, $phone)
+    public function checkNotificationData($phone, $email)
     {
         try {
             $response = $this->getModule('REST')->response;
             $array = json_decode($response, true);
-            $this->assertContains($email ,$array['notification'],"Notification field should contains  $email for success.");
-            $this->assertContains($phone ,$array['notification'],"Notification field should contains  $phone for success.");
+            $this->assertTrue(str_contains( $array['check'], $phone),"Notification field should contains  $phone for success.");
+            if($email != null) {
+                $this->assertTrue(str_contains($array['check'], $email), "Notification field should contains  $email for success.");
+            }
+
 
         }
         catch (ModuleException $e) {
@@ -39,7 +42,7 @@ class Api extends \Codeception\Module
             $response = $this->getModule('REST')->response;
             $array = json_decode($response, true);
             foreach ($absent_fields as $field) {
-                $this->assertContains($field ,$array['message'],"Notification field should contains  $field for success.");
+                $this->assertTrue(str_contains($array['message'], $field),"Notification field should contains  $field for success.");
             }
         }
         catch (ModuleException $e) {

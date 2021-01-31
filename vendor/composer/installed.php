@@ -6,7 +6,7 @@
     'aliases' => 
     array (
     ),
-    'reference' => 'c568b16e55f11666f00280f842e6c69144f56ed0',
+    'reference' => '4c4c22da135231f65e2697ea73e61e063f236cb1',
     'name' => '__root__',
   ),
   'versions' => 
@@ -18,7 +18,7 @@
       'aliases' => 
       array (
       ),
-      'reference' => 'c568b16e55f11666f00280f842e6c69144f56ed0',
+      'reference' => '4c4c22da135231f65e2697ea73e61e063f236cb1',
     ),
     'allure-framework/allure-codeception' => 
     array (

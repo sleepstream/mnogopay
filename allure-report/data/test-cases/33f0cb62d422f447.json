@@ -1,0 +1,170 @@
+{
+  "uid" : "33f0cb62d422f447",
+  "name" : "Check required fields",
+  "fullName" : "UsersTestCest.CheckRequiredFields",
+  "historyId" : "996c445088a39270645d396661f26a13",
+  "time" : {
+    "start" : 1612095331256,
+    "stop" : 1612095331493,
+    "duration" : 237
+  },
+  "description" : "Get request body from InputData file and send request, checking response ",
+  "descriptionHtml" : "<p>Get request body from InputData file and send request, checking response</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "have http header \"secret\",\"QWERTY000097531KEY\"",
+      "time" : {
+        "start" : 1612095331262,
+        "stop" : 1612095331262,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "have http header \"Content-Type\",\"application/json\"",
+      "time" : {
+        "start" : 1612095331262,
+        "stop" : 1612095331262,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "send post \"/\",{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codecep...}",
+      "time" : {
+        "start" : 1612095331263,
+        "stop" : 1612095331492,
+        "duration" : 229
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response code is 200",
+      "time" : {
+        "start" : 1612095331492,
+        "stop" : 1612095331492,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response is json ",
+      "time" : {
+        "start" : 1612095331493,
+        "stop" : 1612095331493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check operation status success 222",
+      "time" : {
+        "start" : 1612095331493,
+        "stop" : 1612095331493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check message contains required field name [\"address\",\"phone\"]",
+      "time" : {
+        "start" : 1612095331493,
+        "stop" : 1612095331493,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "testClass",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckRequiredFields"
+  }, {
+    "name" : "suite",
+    "value" : "api"
+  }, {
+    "name" : "package",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "absent_fields",
+    "value" : "[\"address\",\"phone\"]"
+  }, {
+    "name" : "data",
+    "value" : "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}"
+  }, {
+    "name" : "resp_code",
+    "value" : "222"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "33f0cb62d422f447.json",
+  "parameterValues" : [ "[\"address\",\"phone\"]", "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
+}

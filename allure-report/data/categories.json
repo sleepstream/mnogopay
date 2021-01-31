@@ -4,142 +4,143 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "`order_id: 'testorder222'` is of type `integer`",
+      "name" : "`resp_code: '0'` is of type `integer`",
       "children" : [ {
-        "name" : "Test link title",
-        "uid" : "10d44ae4d3d61b63",
-        "parentUid" : "bc1b2999370f009514e0e3f1bf934d10",
+        "name" : "Check positive sceraios",
+        "uid" : "1788bd5e8e67c287",
+        "parentUid" : "6dbc0e898aae8fae43245bc97ee9e804",
         "status" : "failed",
         "time" : {
-          "start" : 1611995385576,
-          "stop" : 1611995386150,
-          "duration" : 574
+          "start" : 1612095327263,
+          "stop" : 1612095327724,
+          "duration" : 461
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "0" ]
+        "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":222,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "0" ]
+      }, {
+        "name" : "Check positive sceraios",
+        "uid" : "189da06bce70f78",
+        "parentUid" : "6dbc0e898aae8fae43245bc97ee9e804",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612095327725,
+          "stop" : 1612095327961,
+          "duration" : 236
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":222,\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "0" ]
       } ],
-      "uid" : "bc1b2999370f009514e0e3f1bf934d10"
+      "uid" : "6dbc0e898aae8fae43245bc97ee9e804"
     }, {
       "name" : "`resp_code: '111'` is of type `integer`",
       "children" : [ {
-        "name" : "Test link title",
-        "uid" : "c01e8eb98df4ea1b",
+        "name" : "Check positive sceraios",
+        "uid" : "490cde18bcefc085",
         "parentUid" : "4fb373bf9937c880b6f293316e687dd1",
         "status" : "failed",
         "time" : {
-          "start" : 1611995386150,
-          "stop" : 1611995386389,
-          "duration" : 239
+          "start" : 1612095328202,
+          "stop" : 1612095329718,
+          "duration" : 1516
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{\"amount\":\"333\",\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":\"1\",\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
+        "parameters" : [ "{\"amount\":\"333\",\"currency\":\"RUB\",\"order_id\":222,\"type_order\":1,\"day\":\"2412-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
+      }, {
+        "name" : "Check positive sceraios",
+        "uid" : "d2e37e80cec075d2",
+        "parentUid" : "4fb373bf9937c880b6f293316e687dd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612095329719,
+          "stop" : 1612095329979,
+          "duration" : 260
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{\"amount\":\"333\",\"currency\":\"RUB\",\"order_id\":222,\"type_order\":\"1\",\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
+      }, {
+        "name" : "Check positive sceraios",
+        "uid" : "bf2b96f0c80d4a66",
+        "parentUid" : "4fb373bf9937c880b6f293316e687dd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612095330478,
+          "stop" : 1612095330749,
+          "duration" : 271
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{\"amount\":2322,\"currency\":\"USD\",\"order_id\":22243,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
+      }, {
+        "name" : "Check positive sceraios",
+        "uid" : "fca92ac52a0cd512",
+        "parentUid" : "4fb373bf9937c880b6f293316e687dd1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1612095331000,
+          "stop" : 1612095331256,
+          "duration" : 256
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "{\"amount\":2322,\"currency\":\"RUB\",\"order_id\":22243,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davertcodeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
       } ],
       "uid" : "4fb373bf9937c880b6f293316e687dd1"
     }, {
       "name" : "`resp_code: '222'` is of type `integer`",
       "children" : [ {
-        "name" : "Test link title",
-        "uid" : "8e320d021cf43d15",
+        "name" : "Check positive sceraios",
+        "uid" : "da892a3905fb63a7",
         "parentUid" : "f6cd05737edefebb5ed80659dd0934f0",
         "status" : "failed",
         "time" : {
-          "start" : 1611995386389,
-          "stop" : 1611995386625,
-          "duration" : 236
+          "start" : 1612095329980,
+          "stop" : 1612095330232,
+          "duration" : 252
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
+        "parameters" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":22222,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
       } ],
       "uid" : "f6cd05737edefebb5ed80659dd0934f0"
     }, {
       "name" : "`resp_code: '333'` is of type `integer`",
       "children" : [ {
-        "name" : "Test link title",
-        "uid" : "f105ec83bbda90cd",
+        "name" : "Check positive sceraios",
+        "uid" : "f308b5299256ebd6",
         "parentUid" : "03fb66e1331d19c09672b09a2a2d776a",
         "status" : "failed",
         "time" : {
-          "start" : 1611995386626,
-          "stop" : 1611995386872,
-          "duration" : 246
+          "start" : 1612095330232,
+          "stop" : 1612095330476,
+          "duration" : 244
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{\"amount\":3.333333333333333e+20,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "333" ]
+        "parameters" : [ "{\"amount\":3.333333333333333e+20,\"currency\":\"RUB\",\"order_id\":22243,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "333" ]
       } ],
       "uid" : "03fb66e1331d19c09672b09a2a2d776a"
     }, {
-      "name" : "Operation status should be  0 for success.\nFailed asserting that '222' matches expected 0.",
+      "name" : "Operation status should be  111 for success.\nFailed asserting that '333' matches expected 111.",
       "children" : [ {
-        "name" : "Test link title",
-        "uid" : "8a29dec1c5870d5a",
-        "parentUid" : "2dcc41908d870f14c20f68a19991e84c",
+        "name" : "Check positive sceraios",
+        "uid" : "2bc3205d1fff7e4f",
+        "parentUid" : "ae3f7f2ef9e1399da6622cc47d98cec6",
         "status" : "failed",
         "time" : {
-          "start" : 1611995386873,
-          "stop" : 1611995387140,
-          "duration" : 267
+          "start" : 1612095330751,
+          "stop" : 1612095330999,
+          "duration" : 248
         },
         "flaky" : false,
         "newFailed" : false,
-        "parameters" : [ "{\"amount\":1111,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":3,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true}", "0" ]
+        "parameters" : [ "{\"amount\":-2322,\"currency\":\"RUB\",\"order_id\":22243,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"phone\":89996651212,\"email\":\"davert@codeception.com\",\"notification\":true,\"address\":\"Lativa\"}", "111" ]
       } ],
-      "uid" : "2dcc41908d870f14c20f68a19991e84c"
-    }, {
-      "name" : "Example absent_field doesn't exist",
-      "children" : [ {
-        "name" : "Test link title",
-        "uid" : "56d5d6c32c4e761a",
-        "parentUid" : "77bbfe6720087344764dd22bc330e8e4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611995387141,
-          "stop" : 1611995387397,
-          "duration" : 256
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[\"address\",\"phone\"]", "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
-      }, {
-        "name" : "Test link title",
-        "uid" : "e5065e27673150d4",
-        "parentUid" : "77bbfe6720087344764dd22bc330e8e4",
-        "status" : "failed",
-        "time" : {
-          "start" : 1611995417415,
-          "stop" : 1611995417692,
-          "duration" : 277
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[\"address\",\"phone\",\"type_order\",\"amount\",\"currency\",\"order_id\",\"day\",\"buyer_first_name\"]", "[]", "222" ]
-      } ],
-      "uid" : "77bbfe6720087344764dd22bc330e8e4"
+      "uid" : "ae3f7f2ef9e1399da6622cc47d98cec6"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
-  }, {
-    "name" : "Test defects",
-    "children" : [ {
-      "name" : "cURL error 28: Operation timed out after 30003 milliseconds with 0 out of 0 bytes received (see https://curl.haxx.se/libcurl/c/libcurl-errors.html) for https://mock01.ecpdss.net/mnogopay/z/buy/",
-      "children" : [ {
-        "name" : "Test link title",
-        "uid" : "69236ac23a1c4ad4",
-        "parentUid" : "e68349ff29a8e4d331bb297959285755",
-        "status" : "broken",
-        "time" : {
-          "start" : 1611995387398,
-          "stop" : 1611995417415,
-          "duration" : 30017
-        },
-        "flaky" : false,
-        "newFailed" : false,
-        "parameters" : [ "[\"address\",\"phone\",\"type_order\"]", "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":\"testorder222\",\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"buyer_last_name\":\"basov\",\"comment\":\"buy something\",\"email\":\"davert@codeception.com\",\"notification\":true}", "222" ]
-      } ],
-      "uid" : "e68349ff29a8e4d331bb297959285755"
-    } ],
-    "uid" : "bdbf199525818fae7a8651db9eafe741"
   } ]
 }

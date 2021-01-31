@@ -1,81 +1,131 @@
 [ {
-  "uid" : "8e320d021cf43d15",
-  "name" : "Test link title",
+  "uid" : "98194d3d563e84e",
+  "name" : "Check positive sceraios",
   "time" : {
-    "start" : 1611995386389,
-    "stop" : 1611995386625,
+    "start" : 1612095327962,
+    "stop" : 1612095328201,
+    "duration" : 239
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d2e37e80cec075d2",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095329719,
+    "stop" : 1612095329979,
+    "duration" : 260
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "bf2b96f0c80d4a66",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095330478,
+    "stop" : 1612095330749,
+    "duration" : 271
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "2bc3205d1fff7e4f",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095330751,
+    "stop" : 1612095330999,
+    "duration" : 248
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "490cde18bcefc085",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095328202,
+    "stop" : 1612095329718,
+    "duration" : 1516
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "189da06bce70f78",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095327725,
+    "stop" : 1612095327961,
     "duration" : 236
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "56d5d6c32c4e761a",
-  "name" : "Test link title",
+  "uid" : "f308b5299256ebd6",
+  "name" : "Check positive sceraios",
   "time" : {
-    "start" : 1611995387141,
-    "stop" : 1611995387397,
+    "start" : 1612095330232,
+    "stop" : 1612095330476,
+    "duration" : 244
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "fca92ac52a0cd512",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095331000,
+    "stop" : 1612095331256,
     "duration" : 256
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "e5065e27673150d4",
-  "name" : "Test link title",
+  "uid" : "33f0cb62d422f447",
+  "name" : "Check required fields",
   "time" : {
-    "start" : 1611995417415,
-    "stop" : 1611995417692,
-    "duration" : 277
+    "start" : 1612095331256,
+    "stop" : 1612095331493,
+    "duration" : 237
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "409a83b661b5a591",
+  "name" : "Check required fields",
+  "time" : {
+    "start" : 1612095331750,
+    "stop" : 1612095332009,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3c40747cfc0b0b22",
+  "name" : "Check required fields",
+  "time" : {
+    "start" : 1612095331494,
+    "stop" : 1612095331750,
+    "duration" : 256
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "da892a3905fb63a7",
+  "name" : "Check positive sceraios",
+  "time" : {
+    "start" : 1612095329980,
+    "stop" : 1612095330232,
+    "duration" : 252
   },
   "status" : "failed",
   "severity" : "normal"
 }, {
-  "uid" : "10d44ae4d3d61b63",
-  "name" : "Test link title",
+  "uid" : "1788bd5e8e67c287",
+  "name" : "Check positive sceraios",
   "time" : {
-    "start" : 1611995385576,
-    "stop" : 1611995386150,
-    "duration" : 574
+    "start" : 1612095327263,
+    "stop" : 1612095327724,
+    "duration" : 461
   },
   "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "8a29dec1c5870d5a",
-  "name" : "Test link title",
-  "time" : {
-    "start" : 1611995386873,
-    "stop" : 1611995387140,
-    "duration" : 267
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "f105ec83bbda90cd",
-  "name" : "Test link title",
-  "time" : {
-    "start" : 1611995386626,
-    "stop" : 1611995386872,
-    "duration" : 246
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "c01e8eb98df4ea1b",
-  "name" : "Test link title",
-  "time" : {
-    "start" : 1611995386150,
-    "stop" : 1611995386389,
-    "duration" : 239
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "69236ac23a1c4ad4",
-  "name" : "Test link title",
-  "time" : {
-    "start" : 1611995387398,
-    "stop" : 1611995417415,
-    "duration" : 30017
-  },
-  "status" : "broken",
   "severity" : "normal"
 } ]

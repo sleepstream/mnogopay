@@ -1667,7 +1667,7 @@ trait ApiTesterActions
      *
      * @see \Helper\Api::checkNotificationData()
      */
-    public function checkNotificationData($email, $phone) {
+    public function checkNotificationData($phone, $email) {
         return $this->getScenario()->runStep(new \Codeception\Step\Action('checkNotificationData', func_get_args()));
     }
 

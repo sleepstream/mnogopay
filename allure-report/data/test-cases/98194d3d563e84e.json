@@ -1,0 +1,182 @@
+{
+  "uid" : "98194d3d563e84e",
+  "name" : "Check positive sceraios",
+  "fullName" : "UsersTestCest.ByPositiveTest",
+  "historyId" : "b6a218c2d1d34f71bc62a813e3067771",
+  "time" : {
+    "start" : 1612095327962,
+    "stop" : 1612095328201,
+    "duration" : 239
+  },
+  "description" : "Get request body from InputData file and send request, checking response",
+  "descriptionHtml" : "<p>Get request body from InputData file and send request, checking response</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "have http header \"secret\",\"QWERTY000097531KEY\"",
+      "time" : {
+        "start" : 1612095327967,
+        "stop" : 1612095327967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "have http header \"Content-Type\",\"application/json\"",
+      "time" : {
+        "start" : 1612095327967,
+        "stop" : 1612095327967,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "send post \"/\",{\"amount\":333,\"currency\":\"RUB\",\"order_id\":222,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"phone\":89996651212,\"email\":null,\"address\":\"Lativa\"}",
+      "time" : {
+        "start" : 1612095327967,
+        "stop" : 1612095328195,
+        "duration" : 228
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response code is 200",
+      "time" : {
+        "start" : 1612095328196,
+        "stop" : 1612095328196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response is json ",
+      "time" : {
+        "start" : 1612095328196,
+        "stop" : 1612095328196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check operation status success 0",
+      "time" : {
+        "start" : 1612095328196,
+        "stop" : 1612095328196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response matches json type {\"payment_id\":\"string\",\"order_id\":\"integer\",\"resp_code\":\"integer\",\"check\":\"string\",\"notification\":\"boolean\"}",
+      "time" : {
+        "start" : 1612095328196,
+        "stop" : 1612095328196,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check notification data 89996651212,null",
+      "time" : {
+        "start" : 1612095328196,
+        "stop" : 1612095328201,
+        "duration" : 5
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "testClass",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "testMethod",
+    "value" : "ByPositiveTest"
+  }, {
+    "name" : "suite",
+    "value" : "api"
+  }, {
+    "name" : "package",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "data",
+    "value" : "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":222,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"phone\":89996651212,\"email\":null,\"address\":\"Lativa\"}"
+  }, {
+    "name" : "resp_code",
+    "value" : "0"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "98194d3d563e84e.json",
+  "parameterValues" : [ "{\"amount\":333,\"currency\":\"RUB\",\"order_id\":222,\"type_order\":1,\"day\":\"24-12-2021\",\"buyer_first_name\":\"rion\",\"phone\":89996651212,\"email\":null,\"address\":\"Lativa\"}", "0" ]
+}

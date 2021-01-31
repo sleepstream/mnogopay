@@ -5,9 +5,57 @@
          "data":{
             "amount":333,
             "currency":"RUB",
-            "order_id":"testorder222",
+            "order_id":222,
             "type_order":1,
             "day":"24-12-2021",
+            "buyer_first_name":"rion",
+            "buyer_last_name":"basov",
+            "comment":"buy something",
+            "phone":89996651212,
+            "email":"davert@codeception.com",
+            "notification":true,
+            "address":"Lativa"
+         }
+      },
+      {
+         "resp_code":0,
+         "data":{
+            "amount":333,
+            "currency":"RUB",
+            "order_id":222,
+            "type_order":3,
+            "day":"24-12-2021",
+            "buyer_first_name":"rion",
+            "buyer_last_name":"basov",
+            "comment":"buy something",
+            "phone":89996651212,
+            "email":"davert@codeception.com",
+            "notification":true,
+            "address":"Lativa"
+         }
+      },
+      {
+         "resp_code":0,
+         "data":{
+            "amount":333,
+            "currency":"RUB",
+            "order_id":222,
+            "type_order":1,
+            "day":"24-12-2021",
+            "buyer_first_name":"rion",
+            "phone":89996651212,
+            "email":null,
+            "address":"Lativa"
+         }
+      },
+      {
+         "resp_code":111,
+         "data":{
+            "amount":"333",
+            "currency":"RUB",
+            "order_id": 222,
+            "type_order":1,
+            "day":"2412-2021",
             "buyer_first_name":"rion",
             "buyer_last_name":"basov",
             "comment":"buy something",
@@ -22,7 +70,7 @@
          "data":{
             "amount":"333",
             "currency":"RUB",
-            "order_id":"testorder222",
+            "order_id": 222,
             "type_order":"1",
             "day":"24-12-2021",
             "buyer_first_name":"rion",
@@ -39,7 +87,7 @@
          "data":{
             "amount":333,
             "currency":"RUB",
-            "order_id":"testorder222",
+            "order_id": 22222,
             "type_order":1,
             "day":"24-12-2021",
             "buyer_first_name":"rion",
@@ -55,7 +103,7 @@
          "data":{
             "amount":333333333333333333333,
             "currency":"RUB",
-            "order_id":"testorder222",
+            "order_id": 22243,
             "type_order":1,
             "day":"24-12-2021",
             "buyer_first_name":"rion",
@@ -68,19 +116,54 @@
          }
       },
       {
-         "resp_code":0,
+         "resp_code":111,
          "data":{
-            "amount":1111,
-            "currency":"RUB",
-            "order_id":"testorder222",
-            "type_order":3,
+            "amount":2322,
+            "currency":"USD",
+            "order_id": 22243,
+            "type_order":1,
             "day":"24-12-2021",
             "buyer_first_name":"rion",
             "buyer_last_name":"basov",
             "comment":"buy something",
             "phone":89996651212,
             "email":"davert@codeception.com",
-            "notification":true
+            "notification":true,
+            "address":"Lativa"
+         }
+      },
+      {
+         "resp_code":111,
+         "data":{
+            "amount": -2322,
+            "currency":"RUB",
+            "order_id": 22243,
+            "type_order":1,
+            "day":"24-12-2021",
+            "buyer_first_name":"rion",
+            "buyer_last_name":"basov",
+            "comment":"buy something",
+            "phone":89996651212,
+            "email":"davert@codeception.com",
+            "notification":true,
+            "address":"Lativa"
+         }
+      },
+      {
+         "resp_code":111,
+         "data":{
+            "amount": 2322,
+            "currency":"RUB",
+            "order_id": 22243,
+            "type_order":1,
+            "day":"24-12-2021",
+            "buyer_first_name":"rion",
+            "buyer_last_name":"basov",
+            "comment":"buy something",
+            "phone":89996651212,
+            "email":"davertcodeception.com",
+            "notification":true,
+            "address":"Lativa"
          }
       }
    ],

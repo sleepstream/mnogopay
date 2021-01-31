@@ -6,7 +6,7 @@ $vendorDir = dirname(dirname(__FILE__));
 $baseDir = dirname($vendorDir);
 
 return array(
-    'Yandex' => array($vendorDir . '/allure-framework/allure-codeception/src', $vendorDir . '/allure-framework/allure-php-api/src', $vendorDir . '/allure-framework/allure-php-api/test'),
+    'Yandex' => array($vendorDir . '/allure-framework/allure-php-api/src', $vendorDir . '/allure-framework/allure-php-api/test', $vendorDir . '/allure-framework/allure-codeception/src'),
     'PhpCollection' => array($vendorDir . '/phpcollection/phpcollection/src'),
     'Metadata\\' => array($vendorDir . '/jms/metadata/src'),
     'JMS\\Serializer' => array($vendorDir . '/jms/serializer/src'),

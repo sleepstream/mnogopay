@@ -1,14 +1,8 @@
 <?php
 
 use Codeception\Example;
-use Yandex\Allure\Adapter\Annotation\AllureId;
 use Yandex\Allure\Adapter\Annotation\Title;
 use Yandex\Allure\Adapter\Annotation\Description;
-use Yandex\Allure\Adapter\Annotation\TestCaseId;
-use Yandex\Allure\Adapter\Annotation\Issues;
-use Yandex\Allure\Adapter\Annotation\Features;
-use Yandex\Allure\Adapter\Annotation\Stories;
-use function PHPUnit\Framework\equalTo;
 
 class UsersTestCest
 {
@@ -55,12 +49,8 @@ class UsersTestCest
      * @dataProvider objectProviderCheckStatus
      * @param ApiTester $I
      * @param Example $example
-     * @AllureId("123")
-     * @Title("Test link title")
-     * @TestCaseId("23")
-     * @Description("Test link test desc")
-     * @Features({"First Feature"})
-     * @Stories({"First Story"})
+     * @Title("Check positive sceraios")
+     * @Description("Get request body from InputData file and send request, checking response")
      */
     public function ByPositiveTest(ApiTester $I, Example $example)
     {
@@ -78,12 +68,12 @@ class UsersTestCest
             //if request is correct - check schema of response
             $I->seeResponseMatchesJsonType([
                 'payment_id' => 'string',
-                'order_id' => 'string',//in specification integer
+                'order_id' => 'integer',
                 'resp_code' => 'integer',
                 'check' => 'string',
                 'notification' => 'boolean'
             ]);
-            $I->checkNotificationData($example['data']['email'], $example['data']['phone']);
+            $I->checkNotificationData($example['data']['phone'], $example['data']['email']);
         }
         else if($example['resp_code'] != 0) {
             //if request is incorrect - check schema of response
@@ -98,12 +88,8 @@ class UsersTestCest
      * @dataProvider objectProviderRequiredFields
      * @param ApiTester $I
      * @param Example $example
-     * @AllureId("123")
-     * @Title("Test link title")
-     * @TestCaseId("23")
-     * @Description("Test link test desc")
-     * @Features({"First Feature"})
-     * @Stories({"First Story"})
+     * @Title("Check required fields")
+     * @Description("Get request body from InputData file and send request, checking response ")
      */
     public function CheckRequiredFields(ApiTester $I, Example $example) {
         $I->haveHttpHeader('secret', $this->secret);
@@ -112,7 +98,7 @@ class UsersTestCest
         $I->seeResponseCodeIs(\Codeception\Util\HttpCode::OK); // 200
         $I->seeResponseIsJson();
         $I->checkOperationStatusSuccess($example['resp_code']);//check resp_code
-        $I->checkMessageContainsRequiredFieldName($example['absent_field']);
+        $I->checkMessageContainsRequiredFieldName($example['absent_fields']);
 
     }
 }

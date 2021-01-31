@@ -1,0 +1,170 @@
+{
+  "uid" : "409a83b661b5a591",
+  "name" : "Check required fields",
+  "fullName" : "UsersTestCest.CheckRequiredFields",
+  "historyId" : "37ac387d6f564ae19ec1da6a6a4fba34",
+  "time" : {
+    "start" : 1612095331750,
+    "stop" : 1612095332009,
+    "duration" : 259
+  },
+  "description" : "Get request body from InputData file and send request, checking response ",
+  "descriptionHtml" : "<p>Get request body from InputData file and send request, checking response</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "have http header \"secret\",\"QWERTY000097531KEY\"",
+      "time" : {
+        "start" : 1612095331757,
+        "stop" : 1612095331757,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "have http header \"Content-Type\",\"application/json\"",
+      "time" : {
+        "start" : 1612095331758,
+        "stop" : 1612095331758,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "send post \"/\",[]",
+      "time" : {
+        "start" : 1612095331759,
+        "stop" : 1612095332008,
+        "duration" : 249
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response code is 200",
+      "time" : {
+        "start" : 1612095332008,
+        "stop" : 1612095332008,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "see response is json ",
+      "time" : {
+        "start" : 1612095332008,
+        "stop" : 1612095332008,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check operation status success 222",
+      "time" : {
+        "start" : 1612095332008,
+        "stop" : 1612095332008,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "check message contains required field name [\"address\",\"phone\",\"type_order\",\"amount\",\"currency\",\"order_id\",\"day\",\"buyer_first_name\"]",
+      "time" : {
+        "start" : 1612095332009,
+        "stop" : 1612095332009,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "testClass",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "testMethod",
+    "value" : "CheckRequiredFields"
+  }, {
+    "name" : "suite",
+    "value" : "api"
+  }, {
+    "name" : "package",
+    "value" : "UsersTestCest"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "absent_fields",
+    "value" : "[\"address\",\"phone\",\"type_order\",\"amount\",\"currency\",\"order_id\",\"day\",\"buyer_first_name\"]"
+  }, {
+    "name" : "data",
+    "value" : "[]"
+  }, {
+    "name" : "resp_code",
+    "value" : "222"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "409a83b661b5a591.json",
+  "parameterValues" : [ "[\"address\",\"phone\",\"type_order\",\"amount\",\"currency\",\"order_id\",\"day\",\"buyer_first_name\"]", "[]", "222" ]
+}

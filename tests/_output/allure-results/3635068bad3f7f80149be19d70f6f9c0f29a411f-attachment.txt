@@ -1,0 +1,1 @@
+{"resp_code":"111","message":"Incorrect parameter in request currency: USD"}
